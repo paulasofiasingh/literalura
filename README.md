@@ -14,26 +14,28 @@
    git clone https://github.com/paulasofiasingh/literalura
 
 2. Accede al directorio del proyecto:
-
-cd literalura
+   ```bash
+   cd literalura
 
 3. Configura la base de datos PostgreSQL:
 
 Crea una base de datos llamada literalura:
-
-CREATE DATABASE literalura;
+   
+   CREATE DATABASE literalura;
 
 4. Configura las credenciales de acceso en el archivo application.properties:
 
-spring.datasource.url=jdbc:postgresql://localhost/literalura
+   ```bash
+   spring.datasource.url=jdbc:postgresql://localhost/literalura
 
-spring.datasource.username=tu_usuario
+   spring.datasource.username=tu_usuario
 
-spring.datasource.password=tu_contraseña
+   spring.datasource.password=tu_contraseña
 
 5. Compila y ejecuta la aplicación:
 
-mvn spring-boot:run
+   ```bash
+   mvn spring-boot:run
 
 ## Uso
 Cuando inicias la aplicación, se mostrará el siguiente menú:
