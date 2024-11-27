@@ -10,18 +10,31 @@
 
 ## Instalación
 1. Clona este repositorio en tu máquina local:
+   
    git clone https://github.com/paulasofiasingh/literalura
+   
 2. Accede al directorio del proyecto:
+   
 cd literalura
+
 3. Configura la base de datos PostgreSQL:
+   
 Crea una base de datos llamada literalura:
+
 Código SQL
+
 CREATE DATABASE literalura;
+
 4. Configura las credenciales de acceso en el archivo application.properties:
+
 spring.datasource.url=jdbc:postgresql://localhost/literalura
+
 spring.datasource.username=tu_usuario
+
 spring.datasource.password=tu_contraseña
+
 5. Ejecuta el siguiente comando para compilar y ejecutar la aplicación:
+
 mvn spring-boot:run
 
 ## Uso
