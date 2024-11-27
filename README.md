@@ -65,12 +65,18 @@ Termina la ejecución de la aplicación.
 
 ## Ejemplo de uso
 Inicia la aplicación y selecciona la opción 1.
+
 Ingresa el título de un libro, por ejemplo: Moby Dick.
+
 La aplicación buscará y registrará el libro en la base de datos si está disponible.
+
 Selecciona la opción 3 para listar los autores registrados y verificar si el autor del libro aparece en la base de datos.
 
 ## Contacto
 Para preguntas o sugerencias, contactame:
+
 Autor: Paula Singh
+
 Email: paulasofiasingh@gmail.com
+
 ¡Gracias por usar Literalura! 📚
