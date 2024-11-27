@@ -1,7 +1,7 @@
 # Literalura: Aplicación de Consola para Consulta de Libros y Autores
 
 ## Descripción
-**Literalura** es una aplicación de consola desarrollada en Java que permite gestionar un catálogo de libros y autores. Puedes buscar libros en una API externa, registrarlos en una base de datos y consultar información como libros registrados, autores vivos en un año específico y más.
+**Literalura** es una aplicación de consola desarrollada en Java que permite gestionar un catálogo de libros y autores. Podes buscar libros en la API de Gutendex, registrarlos en una base de datos y consultar información como libros registrados, autores vivos en un año específico y más.
 
 ## Requisitos
 - **Java** 11 o superior
@@ -17,10 +17,8 @@
    ```bash
    cd literalura
 
-3. Configura la base de datos PostgreSQL:
-
-Crea una base de datos llamada literalura:
-   
+3. Configura la base de datos PostgreSQL. Para eso crea una base de datos llamada literalura con el siguiente código SQL:
+   ```bash
    CREATE DATABASE literalura;
 
 4. Configura las credenciales de acceso en el archivo application.properties:
@@ -85,5 +83,7 @@ Selecciona la opción 3 para listar los autores registrados y verificar si el au
 Para preguntas o sugerencias, contactame:
 
 Autor: Paula Singh
+
 Email: paulasofiasingh@gmail.com
+
 ¡Gracias por usar Literalura! 📚
